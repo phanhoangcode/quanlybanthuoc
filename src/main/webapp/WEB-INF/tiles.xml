@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+<tiles-definitions>
+	<definition name="myapp.adminHomePage"
+		template="/template/main-layout.jsp">
+		<put-attribute name="title" value="Danh sách thuốc" />
+
+		<put-attribute name="common-css"
+			value="/lib/lib-common/common-css.jsp" />
+
+		<!-- Import css file -->
+		<put-attribute name="stylesheets"
+			value="lib/css/style.css" />
+
+		<put-attribute name="common-js"
+			value="/lib/lib-common/common-js.jsp" />
+
+		<put-attribute name="javascripts"
+			value="lib/js/script.js" />
+
+		<put-attribute name="header"
+			value="/template/header.jsp" />
+
+		<put-attribute name="sidebar"
+			value="/template/sidebar.jsp" />
+
+		<put-attribute name="body"
+			value="/template/body.jsp" />
+
+		<put-attribute name="footer"
+			value="/template/footer.jsp" />
+	</definition>
+</tiles-definitions>       

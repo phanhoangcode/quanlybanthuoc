@@ -1,0 +1,189 @@
+button {
+    cursor: pointer;
+}
+
+.btn-head {
+    margin-left: 5px;
+}
+
+input[type=checkbox].check-all,
+input[type=checkbox].check-some {
+    zoom: 1.2;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+input[type=checkbox].check-all {
+    margin: 0 0 0 12.5px;
+}
+
+body {
+    font-family: 'Arimo', sans-serif;
+    font-size: 14px;
+}
+
+table,
+tr,
+th,
+td,
+thead,
+tbody,
+tfoot {
+    text-align: center;
+}
+
+table td,
+table th {
+    vertical-align: middle !important;
+}
+
+table th {
+    height: 30px;
+}
+
+.imenudown {
+    margin-top: 1px;
+    border-radius: 0;
+    border: none;
+    background-color: #0288D1;
+    font-size: 14px;
+}
+
+a.nav-link:hover {
+    background-color: #0294e3;
+}
+
+.drop-header i.fas {
+    width: 20px;
+}
+
+.imenudown-account {
+    font-size: 14px;
+    margin-top: 1px;
+    /*chá»‰nh dropdown sang trÃ¡i 30px*/
+    left: -42px;
+    border-radius: 0;
+    border: none;
+    background-color: #0288D1;
+    margin-top: 1px;
+}
+
+.imenudown-account a,
+.dropdown-cmn a {
+    color: #fff;
+}
+
+.imenudown-account a:hover,
+.dropdown-cmn a:hover {
+    background-color: #039BE5;
+    color: #fff;
+}
+
+.ilogo {
+    text-transform: uppercase;
+    font-family: 'Libre Barcode 128 Text', cursive;
+    font-size: 22px;
+}
+
+nav.navbar {
+    padding: 0px 0px;
+}
+
+main {
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+
+.title-sidebar {
+    background-color: #0288D1;
+    padding: 6px;
+    color: white;
+}
+
+.cursor,
+button.cursor {
+    cursor: pointer;
+}
+
+.input-under-sidebar {
+    margin-top: 10px;
+}
+
+.input-search-sidebar {
+    margin-top: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+nav.my-nav {
+    background-color: #0288D1 !important;
+}
+
+.head-tb {
+    background-color: #E1F5FE;
+}
+
+
+
+/* FOOTER */
+
+.footer {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding-top: 15px;
+    text-align: center;
+    background: #0288D1;
+    height: 40px;
+    text-align: center;
+    z-index: 1;
+}
+
+.text2 {
+    color: #fff;
+    font-family: Lato;
+    font-size: 12px;
+    text-align: center;
+}
+
+@media only screen and (min-width: 992px) {
+    .modal-nhapthuoc {
+        max-width: 990px;
+    }
+}
+
+
+
+/*CSS palceholder*/
+
+form .form-control::-webkit-input-placeholder {
+    /* Chrome */
+    color: #a6a6a6;
+}
+
+.label-modal {
+    padding-left: 10px;
+}
+
+
+
+/* RESPONSIVE */
+
+@media only screen and (max-width: 991.98px) and (min-width: 300px) {
+    .my-items-nav ul li a,
+    a.ilogo {
+        margin: 5px 5px;
+    }
+    .modal-lg,
+    .modal-dialog {
+        max-width: 700px;
+    }
+}
